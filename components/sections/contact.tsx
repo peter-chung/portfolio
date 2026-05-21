@@ -7,7 +7,7 @@ import { LucideIcon } from "lucide-react";
 const contacts: { label: string; href: string; icon: IconType | LucideIcon }[] =
   [
     { label: "Email", href: "mailto:pchung.dev@gmail.com", icon: Mail },
-    { label: "Resume", href: "/resume.pdf", icon: FileText },
+    { label: "Resume", href: "https://drive.google.com/file/d/14EYO-wzq2DGu6suK5HxOnSH_0Zumbdj3/view?usp=sharing", icon: FileText },
     { label: "GitHub", href: "https://github.com/peter-chung", icon: FaGithub },
     {
       label: "LinkedIn",
@@ -37,8 +37,7 @@ export default function Contact() {
               rel={
                 contact.label !== "Email" ? "noopener noreferrer" : undefined
               }
-              download={contact.label === "Resume" ? true : undefined}
-              className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors w-fit"
+className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors w-fit"
             >
               <contact.icon className="size-4" />
               {contact.label}

@@ -36,7 +36,7 @@ export default function Hero() {
           View Projects
         </Button>
 <Button size="lg" variant="outline" asChild>
-          <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <Link href="https://drive.google.com/file/d/14EYO-wzq2DGu6suK5HxOnSH_0Zumbdj3/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             Resume
           </Link>
         </Button>
