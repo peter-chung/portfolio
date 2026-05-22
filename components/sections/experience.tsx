@@ -3,7 +3,7 @@ import { Separator } from "@/components/ui/separator";
 
 const work = [
   {
-    title: "Retail Store Manager",
+    title: "Retail Operations Manager",
     company: "GV Fashion",
     location: "Phoenix, AZ",
     period: "Oct 2018 – Present",
@@ -35,7 +35,9 @@ export default function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-4xl px-6 py-16">
       <h2 className="text-2xl font-bold tracking-tight mb-8">
-        <span className="text-muted-foreground font-mono text-lg mr-2">02.</span>
+        <span className="text-muted-foreground font-mono text-lg mr-2">
+          02.
+        </span>
         <span className="text-primary">Experience</span>
       </h2>
       <div className="flex flex-col gap-12">
