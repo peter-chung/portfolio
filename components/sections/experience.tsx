@@ -55,14 +55,14 @@ export default function Experience() {
               <div key={i}>
                 <div className="py-4">
                   <div className="flex items-start justify-between gap-4">
-                    <p className="font-medium text-sm">{job.company}</p>
+                    <p className="font-medium text-sm">{job.title}</p>
                     <span className="flex items-center gap-1 text-xs text-muted-foreground shrink-0">
                       <Calendar className="size-3" />
                       {job.period}
                     </span>
                   </div>
                   <div className="flex items-start justify-between gap-4 mt-0.5">
-                    <p className="text-sm text-primary">{job.title}</p>
+                    <p className="text-sm text-primary">{job.company}</p>
                     <span className="flex items-center gap-1 text-xs text-muted-foreground shrink-0">
                       <MapPin className="size-3" />
                       {job.location}
@@ -88,14 +88,14 @@ export default function Experience() {
             {education.map((edu, i) => (
               <div key={i} className="py-4">
                 <div className="flex items-start justify-between gap-4">
-                  <p className="font-medium text-sm">{edu.school}</p>
+                  <p className="font-medium text-sm">{edu.degree}</p>
                   <span className="flex items-center gap-1 text-xs text-muted-foreground shrink-0">
                     <Calendar className="size-3" />
                     {edu.year}
                   </span>
                 </div>
                 <div className="flex items-start justify-between gap-4 mt-0.5">
-                  <p className="text-sm text-primary">{edu.degree}</p>
+                  <p className="text-sm text-primary">{edu.school}</p>
                   <span className="flex items-center gap-1 text-xs text-muted-foreground shrink-0">
                     <MapPin className="size-3" />
                     {edu.location}
